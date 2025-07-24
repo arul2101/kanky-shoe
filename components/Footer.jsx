@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="px-4 py-16 bg-black text-white">
+    <footer className="px-4 py-16 bg-[#1c1c1c] text-white">
       <div className="max-container flex justify-between flex-wrap max-lg:flex-col gap-8">
         <div className="">
           <h2 className="text-2xl font-bold">KANKY</h2>

@@ -1,4 +1,3 @@
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { Plus_Jakarta_Sans } from "next/font/google";
 
@@ -15,7 +14,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html>
-      <body className={`${jakartaSans.className} antialiased`}>{children}</body>
+      <body className={`${jakartaSans.className} antialiased`}>
+          {children}
+      </body>
     </html>
   );
 }
